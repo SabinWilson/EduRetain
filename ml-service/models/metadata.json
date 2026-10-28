@@ -1,0 +1,100 @@
+{
+  "version": "v20260928.180932",
+  "trained_at": "2026-09-28T18:09:32.896436+00:00",
+  "total_samples": 2200,
+  "test_samples": 440,
+  "dropout_rate": 0.15,
+  "metrics": {
+    "accuracy": 0.9591,
+    "precision": 0.8529,
+    "recall": 0.8788,
+    "f1": 0.8657,
+    "roc_auc": 0.9904,
+    "confusion_matrix": {
+      "true_negative": 364,
+      "false_positive": 10,
+      "false_negative": 8,
+      "true_positive": 58,
+      "matrix": [
+        [
+          364,
+          10
+        ],
+        [
+          8,
+          58
+        ]
+      ]
+    }
+  },
+  "feature_importances": [
+    {
+      "feature": "avg_gpa",
+      "label": "Cumulative GPA",
+      "importance": 0.2839
+    },
+    {
+      "feature": "assignment_miss_rate",
+      "label": "Assignment Non-Submission Rate",
+      "importance": 0.1859
+    },
+    {
+      "feature": "lms_time_spent",
+      "label": "Weekly LMS Study Time",
+      "importance": 0.1499
+    },
+    {
+      "feature": "avg_attendance",
+      "label": "Average Attendance",
+      "importance": 0.1237
+    },
+    {
+      "feature": "lms_login_frequency",
+      "label": "Weekly LMS Logins",
+      "importance": 0.079
+    },
+    {
+      "feature": "backlog_count",
+      "label": "Active Course Backlogs",
+      "importance": 0.0785
+    },
+    {
+      "feature": "gpa_trend",
+      "label": "GPA Trajectory",
+      "importance": 0.0398
+    },
+    {
+      "feature": "attendance_trend",
+      "label": "Attendance Trend",
+      "importance": 0.031
+    },
+    {
+      "feature": "engagement_trend",
+      "label": "Digital Engagement Trend",
+      "importance": 0.0215
+    },
+    {
+      "feature": "semester",
+      "label": "Current Semester",
+      "importance": 0.0044
+    },
+    {
+      "feature": "year",
+      "label": "Academic Year",
+      "importance": 0.0023
+    }
+  ],
+  "feature_list": [
+    "avg_attendance",
+    "attendance_trend",
+    "avg_gpa",
+    "gpa_trend",
+    "backlog_count",
+    "assignment_miss_rate",
+    "lms_login_frequency",
+    "lms_time_spent",
+    "engagement_trend",
+    "semester",
+    "year"
+  ]
+}

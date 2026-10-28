@@ -1,0 +1,9 @@
+name,email,rollNo,department,program,year,semester,gender
+Liam O'Connor,liam.oconnor@institution.edu,STU-2024-9001,Computer Science,UG,2,3,Male
+Maya Lin,maya.lin@institution.edu,STU-2024-9002,Information Technology,UG,1,1,Female
+Darius Vance,darius.vance@institution.edu,STU-2024-9003,Data Science,PG,1,1,Male
+Elena Rostova,elena.rostova@institution.edu,STU-2024-9004,Electronics & Communication,UG,3,5,Female
+Tariq Al-Mansoor,tariq.mansoor@institution.edu,STU-2024-9005,Mechanical Engineering,UG,2,4,Male
+Chloe Bennett,chloe.bennett@institution.edu,STU-2024-9006,Computer Science,UG,4,7,Female
+Rajesh Kulkarni,rajesh.k@institution.edu,STU-2024-9007,Data Science,UG,1,2,Male
+Sophie Martin,sophie.martin@institution.edu,STU-2024-9008,Information Technology,PG,2,3,Female
